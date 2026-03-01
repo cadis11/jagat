@@ -1,50 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jagat</title>
+    <title>Jagat | Digital Card</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
+            margin: 0;
             font-family: Arial, sans-serif;
-            background: #111;
+            background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
             color: white;
-            text-align: center;
-            padding: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
+
         .card {
             background: #1e1e1e;
-            padding: 30px;
-            border-radius: 12px;
-            max-width: 400px;
-            margin: auto;
-            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            padding: 40px 30px;
+            border-radius: 16px;
+            width: 90%;
+            max-width: 420px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.6);
         }
+
         img {
-            width: 120px;
+            width: 130px;
+            height: 130px;
+            object-fit: cover;
             border-radius: 50%;
+            border: 3px solid #00bfff;
             margin-bottom: 20px;
         }
-        a {
-            display: block;
-            margin: 10px 0;
-            color: #00bfff;
-            text-decoration: none;
-            font-weight: bold;
+
+        h1 {
+            margin: 10px 0 5px 0;
+            font-size: 24px;
         }
-        a:hover {
-            color: #fff;
+
+        p {
+            margin-bottom: 25px;
+            color: #bbb;
+        }
+
+        .btn {
+            display: block;
+            text-decoration: none;
+            background: #00bfff;
+            color: black;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: white;
+            color: black;
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 12px;
+            color: #777;
         }
     </style>
 </head>
+
 <body>
 
 <div class="card">
-    <img src="profile.jpg" alt="Profile Picture">
+    <img src="profile.jpg" alt="Jagat Profile">
+
     <h1>Jagat</h1>
     <p>Entrepreneur | Import Export | Online Business</p>
 
-    <a href="https://www.facebook.com/jagat.rider.2025" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/jagat_rider/" target="_blank">Instagram</a>
+    <a class="btn" href="https://www.instagram.com/jagat_rider/" target="_blank">Instagram</a>
+    <a class="btn" href="https://share.google/Ua4yb1hGGLpywPsLY" target="_blank">Google Profile</a>
+    <a class="btn" href="sporthubnepal@gmail.com">Email Me</a>
+    <a class="btn" href="tel:+9779867695261">Call Me</a>
+    <a class="btn" href="https://wa.me/9779867695261" target="_blank">WhatsApp</a>
+
+    <div class="footer">
+        © 2026 Jagat
+    </div>
 </div>
 
 </body>
